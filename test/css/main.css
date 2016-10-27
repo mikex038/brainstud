@@ -26,9 +26,9 @@ body{
 	left:0px;
 	top:235px;
 	width:100%;
-	height:75px;
+	height:60px;
 	margin-top: -235px;
-	background: black;
+	background: url("http://header.brainstud.com/img/achtergrond.jpg");
 	background-size: 2560;
 	border-bottom: 3px solid #F2662D;
 }
