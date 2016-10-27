@@ -70,14 +70,14 @@ p{
 
 #footer{
 	bottom: 0px;
-	height: 150px;
+	height: 100;
 	width: 100%;
 	border-top: 3px solid #F2662D;
-	background: black;
+  background: url("http://footer.brainstud.com/img/achtergrond.jpg") center center repeat;
 }
 
 #logoFooter{
 	float: right;
 	margin-right: 10%;
-	margin-top: 40px;
+	margin-top: 15px;
 }
