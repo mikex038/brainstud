@@ -1,3 +1,7 @@
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 body{
 	background-color:#FFFFFF;
 	margin-top: 0px;
@@ -16,7 +20,7 @@ body{
 
 #top-menu {
 	position:fixed;
-	z-index: 3;
+	z-index: 999;
 	left:0px;
 	top:235px;
 	width:100%;
@@ -31,4 +35,32 @@ body{
 	position: relative;
 	margin-top: 0px;
 	margin-right: 10%;
+}
+
+#testing1 h1, #testing2 h1{
+	margin-left: 50px;
+	font-style: bold;
+	font-size: 40px;
+}
+
+#testing1{
+	position: absolute;
+	border: white solid 1px;
+	height: 500px;
+	width: 900px;
+	color:white;
+	top: 2000px;
+	left: 50%;
+	margin: -250px 0 0 -450px;
+}
+
+#testing2{
+	position: absolute;
+	border: white solid 1px;	
+	height: 500px;
+	width: 900px;
+	color:white;
+	top: 3425px;
+	left: 50%;
+	margin: -250px 0 0 -450px;
 }
