@@ -67,3 +67,17 @@ p{
 #testing2{
 	top: 3425px;
 }
+
+#footer{
+	bottom: 0px;
+	height: 150px;
+	width: 100%;
+	border-top: 3px solid #F2662D;
+	background: black;
+}
+
+#logoFooter{
+	float: right;
+	margin-right: 10%;
+	margin-top: 40px;
+}
