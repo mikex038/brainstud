@@ -1,8 +1,10 @@
 html{
 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: rgba(0, 0, 0, 0.90);
+	text-shadow: black 1px 1px;
 }
 
-body{
+body{ 
 	background-color:#FFFFFF;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -37,30 +39,31 @@ body{
 	margin-right: 10%;
 }
 
-#testing1 h1, #testing2 h1{
+h1{
 	margin-left: 50px;
 	font-style: bold;
 	font-size: 40px;
 }
 
-#testing1{
+p{
+	margin-left: 50px;
+	font-size: 25px;
+	right: 50px;
+}
+
+#testing1, #testing2{
 	position: absolute;
-	border: white solid 1px;
 	height: 500px;
 	width: 900px;
-	color:white;
-	top: 2000px;
+	color: white;
 	left: 50%;
 	margin: -250px 0 0 -450px;
 }
 
+#testing1{
+	top: 2000px;
+}
+
 #testing2{
-	position: absolute;
-	border: white solid 1px;	
-	height: 500px;
-	width: 900px;
-	color:white;
 	top: 3425px;
-	left: 50%;
-	margin: -250px 0 0 -450px;
 }
