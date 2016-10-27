@@ -73,11 +73,24 @@ p{
 	height: 100;
 	width: 100%;
 	border-top: 3px solid #F2662D;
-  background: url("http://footer.brainstud.com/img/achtergrond.jpg") center center repeat;
+  	background: url("http://footer.brainstud.com/img/achtergrond.jpg") center center repeat;
+}
+
+address{
+    float: left;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+address a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
 }
 
 #logoFooter{
-	float: right;
-	margin-right: 10%;
-	margin-top: 15px;
+	height: 70px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 15px;
 }
