@@ -34,8 +34,8 @@ body{
 }
 
 .contact{
-	float:left;
-	margin-left: 10%;
+	float:right;
+	margin-right: 10%;
 	color: white;
 	margin-top: 10px;
 	font-size: 14px;
@@ -46,10 +46,10 @@ body{
 }
 
 #logo {
-	float: right;
+	float: left;
 	position: relative;
 	margin-top: 2px;
-	margin-right: 10%;
+	margin-left: 10%;
 }
 
 h1{
@@ -75,7 +75,6 @@ p{
 
 #testing1{
 	top: 2000px;
-	background-color: rgba(0, 0, 0, 0.30);
 }
 
 #testing2{
@@ -88,7 +87,6 @@ p{
 }
 
 #footer{
-	position: fixed;
 	bottom: 0px;
 	height: 100;
 	width: 100%;
