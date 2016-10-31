@@ -20,6 +20,14 @@ body{
 	height:10797px;
 }
 
+#tm{
+	color: white;
+	opacity: 0.03;
+	font-size: 15px;
+	margin-top: 100px;
+	position: fixed;
+}
+
 #top-menu {
 	position:fixed;
 	z-index: 999;
@@ -97,13 +105,35 @@ p{
 address{
     float: left;
     margin-left: 10%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 address a{
     color: white;
     text-decoration: none;
     font-style: normal;
+}
+
+.social{
+	margin-top: 57px;
+	position: absolute;
+	width: 100%;
+}
+
+.social ul{
+	list-style-type: none;
+	position: absolute;
+	float: left;
+	height: 5px;
+	margin-left: 8.5%;
+}
+
+.social ul li{
+	display: inline;
+}
+
+.social ul li:hover{
+	opacity: 0.6;
 }
 
 .weDo{
