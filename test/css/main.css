@@ -12,6 +12,11 @@ body{
 	margin-right: 0px;
 }
 
+.dft-footer{
+	height: 125px!important;
+	overflow-y: hidden!important;
+}
+
 #Table_01 {
 	position:absolute;
 	left:0px;

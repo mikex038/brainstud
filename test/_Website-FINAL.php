@@ -11,7 +11,7 @@
 $header = new BrainHeader();
 $header->getStart();?>
 <!-- Save for Web Slices ( Website FINAL.psd) -->
-<div id="Table_01">
+
 	<section class="subsection-intro1">
 	</section>
 
@@ -42,10 +42,9 @@ $header->getStart();?>
 	<section class="subsection-intro10">
 	</section>
 
+
 <?php include('footer.inc.php');?>
 <?php $header->getEnd(); ?>
-
-</div>
 
 
 <!-- End Save for Web Slices -->
