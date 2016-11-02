@@ -30,6 +30,8 @@ $header->getStart();?>
 	<div class="text" id="textinfo3">
 		<h1>Animatie met welke materialen je nodig hebt</h1>
 		<p>In deze animatie leer je alles wat je nodig om 360º op te nemen</p>
+		<iframe id="iframe1" src="https://player.vimeo.com/video/189934062" width="1000" height="550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 	</section>
 
 	<section class="subsection-intro4">
@@ -42,10 +44,10 @@ $header->getStart();?>
 	</section>
 
 	<section class="subsection-intro7">
-	</section>	
+	</section>
 
 <?php include('footer.inc.php');?>
-<?php $header->getEnd(); ?>	
+<?php $header->getEnd(); ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
