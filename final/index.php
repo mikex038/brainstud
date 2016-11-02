@@ -12,6 +12,10 @@
 <body>
 <!-- Save for Web Slices ( Website FINAL.psd) -->
 
+<?php include('header.inc.php');
+$header = new BrainHeader();
+$header->getStart();?>
+
 	<section class="subsection-intro1">
 	</section>
 
@@ -32,6 +36,9 @@
 
 	<section class="subsection-intro7">
 	</section>	
+
+<?php include('footer.inc.php');?>
+<?php $header->getEnd(); ?>	
 
 <!-- End Save for Web Slices -->
 </body>
