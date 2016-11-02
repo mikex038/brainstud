@@ -1,28 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <title>VR Web Brainstud</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- Save for Web Styles ( Website FINAL.psd) -->
+
 <link rel="stylesheet" type="text/css" href="css/main.css">
 
-</style>
-<!-- End Save for Web Styles -->
 </head>
 <body>
-<!-- Save for Web Slices ( Website FINAL.psd) -->
 
 <?php include('header.inc.php');
 $header = new BrainHeader();
 $header->getStart();?>
 
 	<section class="subsection-intro1">
+	<div class="text" id="textinfo1">
+		<h1>Een korte inleiding</h1>
+		<p>Zie jij door de GoPro’s het bos niet meer? Dan is deze 360º tutorial perfect voor jou. 360 video’s is een nieuwe functie waar al meerdere bedrijven gebruik van maken. Deze video’s kunnen bekeken worden met een virtual reality bril of door het fysiek bewegen van bijvoorbeeld je smartphone of tablet. In deze tutorial word stap voor stap uitgelegd hoe jij een perfect gelukte 360 video in elkaar zet.</p>
+		<img id="gauwprauw" src="images/gopro.png">
 	</section>
 
 	<section class="subsection-intro2">
+	<div class="text" id="textinfo2">
+		<h1>Een uitleg over 360º</h1>
+		<p>Verder kijken in de wereld van 360º? In deze uitleg word er gewerkt met GoPro’s, maar wat heb je nodig voor een 360º video. Om een 360º video te maken met GoPro’s heb je minimaal zes GoPro’s nodig. De GoPro’s gaan in een 360º mount. Zodat elke richting word gefilmd.</p>
 	</section>
 
 	<section class="subsection-intro3">
+	<div class="text" id="textinfo3">
+		<h1>Animatie met welke materialen je nodig hebt</h1>
+		<p>In deze animatie leer je alles wat je nodig om 360º op te nemen</p>
 	</section>
 
 	<section class="subsection-intro4">
@@ -40,6 +47,8 @@ $header->getStart();?>
 <?php include('footer.inc.php');?>
 <?php $header->getEnd(); ?>	
 
-<!-- End Save for Web Slices -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<script src="'js/main.js" type="text/javascript"></script>
 </body>
 </html>
