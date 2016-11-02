@@ -16,27 +16,27 @@ $header->getStart();?>
 
 
 <!-- Save for Web Slices ( Website FINAL.psd) -->
+<div id="balzak">
 	<section class="subsection-intro1">
 	</section>
 
+	<section class="subsection-intro2">
+	</section>
 
-		<section class="subsection-intro2">
-		</section>
+	<section class="subsection-intro3">
+	</section>
 
-		<section class="subsection-intro3">
-		</section>
+	<section class="subsection-intro4">
+	</section>
 
-		<section class="subsection-intro4">
-		</section>
+	<section class="subsection-intro5">
+	</section>
 
-		<section class="subsection-intro5">
-		</section>
-
-		<section class="subsection-intro6">
-		</section>
-
-		<?php include('footer.inc.php');?>
-		<?php $header->getEnd(); ?>
+	<section class="subsection-intro6">
+	</section>
+</div>
+<?php include('footer.inc.php');?>
+<?php $header->getEnd(); ?>
 
 <!-- End Save for Web Slices -->
 </body>
