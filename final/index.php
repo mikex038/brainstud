@@ -17,7 +17,6 @@ $header->getStart();?>
 	<div class="text" id="textinfo1">
 		<h1>Een korte inleiding</h1>
 		<p>Zie jij door de GoPro’s het bos niet meer? Dan is deze 360º tutorial perfect voor jou. 360 video’s is een nieuwe functie waar al meerdere bedrijven gebruik van maken. Deze video’s kunnen bekeken worden met een virtual reality bril of door het fysiek bewegen van bijvoorbeeld je smartphone of tablet. In deze tutorial word stap voor stap uitgelegd hoe jij een perfect gelukte 360 video in elkaar zet.</p>
-		<img id="gauwprauw" src="images/gopro.png">
 	</section>
 
 	<section class="subsection-intro2">
@@ -30,7 +29,9 @@ $header->getStart();?>
 	<div class="text" id="textinfo3">
 		<h1>Animatie met welke materialen je nodig hebt</h1>
 		<p>In deze animatie leer je alles wat je nodig om 360º op te nemen</p>
-		<iframe id="iframe1" src="https://player.vimeo.com/video/189934062" width="1000" height="550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<div class="iframe" id="iframe1">
+			<iframe src="https://player.vimeo.com/video/189934062" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
 
 	</section>
 
