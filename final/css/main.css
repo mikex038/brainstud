@@ -1,7 +1,7 @@
 html{
 	font-family: 'Source Sans Pro', sans-serif;
 	text-shadow: black 1px 1px;
-
+ overflow-x:  hidden;
 }
 
 body{
@@ -120,3 +120,9 @@ section.subsection-intro7{
 	width:100%;
 	height:2646px;
 }
+
+::-webkit-scrollbar {
+display: none;
+}
+
+-moz-scrollbars-none
