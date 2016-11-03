@@ -36,6 +36,7 @@ $header->getStart();?>
 	</section>
 
 	<section class="subsection-intro4">
+		<img id="dingetje" src="images/index_04.png">
 	</section>
 
 	<section class="subsection-intro5">
