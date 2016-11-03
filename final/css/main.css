@@ -24,9 +24,7 @@ p{
 	font-size: 25px;
 }
 
-.iframe{
-	margin-left: -35px;
-}
+
 
 .text{
 	position: absolute;
@@ -52,6 +50,13 @@ p{
 #iframe1{
 	position: absolute;
 	top:208px;
+	margin-left: -35px;
+}
+
+#iframe2{
+	position: absolute;
+	bottom: 3040px;
+	left: 825px;
 }
 
 section.subsection-intro1{

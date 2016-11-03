@@ -29,7 +29,7 @@ $header->getStart();?>
 	<div class="text" id="textinfo3">
 		<h1>Animatie met welke materialen je nodig hebt</h1>
 		<p>In deze animatie leer je alles wat je nodig om 360º op te nemen</p>
-		<div class="iframe" id="iframe1">
+		<div  id="iframe1">
 			<iframe src="https://player.vimeo.com/video/189934062" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
@@ -42,9 +42,13 @@ $header->getStart();?>
 	</section>
 
 	<section class="subsection-intro6">
+		<div id="iframe2">
+		<iframe src="https://player.vimeo.com/video/190059555" width="900" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
 	</section>
 
 	<section class="subsection-intro7">
+
 	</section>
 
 <?php include('footer.inc.php');?>
