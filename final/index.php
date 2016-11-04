@@ -18,8 +18,9 @@ $header->getStart();?>
 		<h1>Een korte inleiding</h1>
 		<p>Zie jij door de GoPro’s het bos niet meer? Dan is deze 360º tutorial perfect voor jou. 360 video’s is een nieuwe functie waar al meerdere bedrijven gebruik van maken. Deze video’s kunnen bekeken worden met een virtual reality bril of door het fysiek bewegen van bijvoorbeeld je smartphone of tablet. In deze tutorial word stap voor stap uitgelegd hoe jij een perfect gelukte 360 video in elkaar zet.</p>
 	</section>
-
+	<img id="goPro" src="images/gopro.png">
 	<section class="subsection-intro11"> 
+
 	</section>
 
 	<section class="subsection-intro2">
@@ -39,7 +40,7 @@ $header->getStart();?>
 	</section>
 
 	<section class="subsection-intro4">
-		<img id="dingetje" src="images/index_04.png">
+		<img id="dingetje" src="images/leopard-4k.jpeg">
 	</section>
 
 	<section class="subsection-intro5">
@@ -60,6 +61,6 @@ $header->getStart();?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-	<script src="'js/main.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
