@@ -1,6 +1,7 @@
 html{
 	font-family: 'Source Sans Pro', sans-serif;
 	text-shadow: black 1px 1px;
+ overflow-x:  hidden;
 }
 
 body{
@@ -59,6 +60,10 @@ p{
 	margin: 0 255px 0 -450px;
 }
 
+section{
+	background-color: black!important;
+}
+
 section.subsection-intro1{
 	background: url("../images/air.png") top center no-repeat;
 	background-size: 2560px;
@@ -93,23 +98,19 @@ section.subsection-intro3{
 	height:976px;
 }
 
-#dingetje{
-	position: absolute;
-	top: 3919px;
-	background: url("../images/leopard-4k.jpeg") top center no-repeat;
-	background-size: 2560px;
-	width: 100%;
-	height:1642px;
-	z-index: 1;
-}
-
 section.subsection-intro4{
-	position: relative;
-	background: url("../images/index_04.png") top center no-repeat;
+	background: url("../images/leopard-4k.jpeg") top center no-repeat;
 	background-size: 2560px;
 	width:100%;
 	height:1642px;
-	z-index: 2;
+}
+#dingetje{
+	position: absolute;
+	display: inline-block;
+	width:2544px;
+	height:1642px;
+	left: 50%;
+	margin-left: -1272px;
 }
 
 section.subsection-intro5{
@@ -132,3 +133,9 @@ section.subsection-intro7{
 	width:100%;
 	height:2646px;
 }
+
+::-webkit-scrollbar {
+display: none;
+}
+
+-moz-scrollbars-none
