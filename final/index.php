@@ -19,7 +19,7 @@ $header->getStart();?>
 		<p>Zie jij door de GoPro’s het bos niet meer? Dan is deze 360º tutorial perfect voor jou. 360 video’s is een nieuwe functie waar al meerdere bedrijven gebruik van maken. Deze video’s kunnen bekeken worden met een virtual reality bril of door het fysiek bewegen van bijvoorbeeld je smartphone of tablet. In deze tutorial word stap voor stap uitgelegd hoe jij een perfect gelukte 360 video in elkaar zet.</p>
 	</section>
 
-	<section class="subsection-intro1.1"> 
+	<section class="subsection-intro11"> 
 	</section>
 
 	<section class="subsection-intro2">
