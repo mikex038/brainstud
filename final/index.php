@@ -39,8 +39,8 @@ $header->getStart();?>
 
 	</section>
 
+	<img id="dingetje" src="images/leopard-4k.jpeg">
 	<section class="subsection-intro4">
-		<img id="dingetje" src="images/leopard-4k.jpeg">
 	</section>
 
 	<section class="subsection-intro5">
