@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+
+	$("#goPro").animate({'top': '260px'}, 1000);
+
     var PSV = new PhotoSphereViewer({
 	    panorama: 'images/photosphere.JPG',
 	    container: 'photosphere',
