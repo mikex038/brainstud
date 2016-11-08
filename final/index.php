@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="js/photosphere/photo-sphere-viewer.css">
 
 </head>
 <body>
@@ -39,7 +40,7 @@ $header->getStart();?>
 
 	</section>
 
-	<img id="dingetje" src="images/leopard-4k.jpeg">
+	<div id="photosphere"></div>
 	<section class="subsection-intro4">
 	</section>
 
@@ -62,5 +63,19 @@ $header->getStart();?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 	<script src="js/main.js" type="text/javascript"></script>
+
+	<script src="js/photosphere/three.js/three.min.js"></script>
+	<script src="js/photosphere/D.js/lib/D.min.js"></script>
+	<script src="js/photosphere/uevent/uevent.min.js"></script>
+	<script src="js/photosphere/doT/doT.min.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/renderers/CanvasRenderer.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/renderers/Projector.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/postprocessing/EffectComposer.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/postprocessing/RenderPass.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/postprocessing/ShaderPass.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/postprocessing/MaskPass.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/shaders/CopyShader.js"></script>
+	<script src="js/photosphere/threejs-examples/examples/js/controls/DeviceOrientationControls.js"></script>
+	<script src="js/photosphere/photo-sphere-viewer.js"></script>
 </body>
 </html>

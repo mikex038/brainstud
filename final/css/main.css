@@ -23,6 +23,30 @@ p{
 	font-size: 25px;
 }
 
+#photosphere {
+	position: absolute;
+    width: 2400px;
+    height: 1520px;
+    z-index: 20;
+}
+
+.psv-button.custom-button {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.psv-download-button, .psv-markers-button {
+  	display: none;
+}
+
+.psv-fullscreen-button {
+ 	margin-right: 50px;
+}
+
+.psv-autorotate-button {
+	margin-left: 50px;
+}
+
 .text{
 	position: absolute;
 	height: 600px;

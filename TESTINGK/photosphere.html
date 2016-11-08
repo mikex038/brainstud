@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="js/photosphere/photo-sphere-viewer.css">
+
+  <style>
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    #photosphere {
+      width: 100%;
+      height: 100%;
+    }
+
+    .psv-button.custom-button {
+      font-size: 22px;
+      line-height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="photosphere"></div>
+
+<script src="js/photosphere/three.js/three.min.js"></script>
+<script src="js/photosphere/D.js/lib/D.min.js"></script>
+<script src="js/photosphere/uevent/uevent.min.js"></script>
+<script src="js/photosphere/doT/doT.min.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/renderers/CanvasRenderer.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/renderers/Projector.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/postprocessing/RenderPass.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/postprocessing/MaskPass.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/shaders/CopyShader.js"></script>
+<script src="js/photosphere/threejs-examples/examples/js/controls/DeviceOrientationControls.js"></script>
+<script src="js/photosphere/photo-sphere-viewer.js"></script>
+
+<script>
+  window.onload = function() {
+    var PSV = new PhotoSphereViewer({
+      panorama: 'photosphere.JPG',
+      //panorama:  getUrlVars()["image"],//'../../Secrid/Development/Webservice-main/public/image-container/full/e1ce195d-ae67-45d5-ab2a-48ab2917fc9e.jpg',
+      container: 'photosphere'
+    });
+    PSV.on('ready', function() { 
+      PSV.stopAutorotate();
+    });
+
+    console.log(  getUrlVars()["image"]);
+  }
+
+
+  function getUrlVars() {
+  var vars = {};
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+  vars[key] = value;
+  });
+  return vars;
+  }
+</script>
+
+<style>
+ .psv-download-button, .psv-markers-button {
+  display: none;
+ }
+
+ .psv-fullscreen-button {
+  margin-right: 50px;
+ }
+
+ .psv-autorotate-button {
+  margin-left: 50px;
+ }
+
+ </style>
+
+<script>
+  document.write('<script src="//' + location.host.split(':')[0] + ':35729/livereload.js" async defer><' + '/script>');
+</script>
+</body>
+</html>
