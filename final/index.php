@@ -25,10 +25,12 @@ $header->getStart();?>
 	</section>
 
 	<section class="subsection-intro2">
+	<img id="star" src="images/star.png">
 	<div class="text" id="textinfo2">
 		<h1>Een uitleg over 360º</h1>
 		<p>Verder kijken in de wereld van 360º? In deze uitleg word er gewerkt met GoPro’s, maar wat heb je nodig voor een 360º video. Om een 360º video te maken met GoPro’s heb je minimaal zes GoPro’s nodig. De GoPro’s gaan in een 360º mount. Zodat elke richting word gefilmd.</p>
 	</section>
+
 
 	<section class="subsection-intro3">
 	<div class="text" id="textinfo3">
