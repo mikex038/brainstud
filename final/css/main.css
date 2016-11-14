@@ -48,14 +48,11 @@ p{
 	top: 400px;
 }
 
-#textinfo3{
-	top: 3235px;
-}
-
 #iframe1{
 	position: absolute;
-	top:197px;
-	margin-left: -35px;
+	top: 197px;
+	left: 50%;
+	margin-left: -480px;
 }
 
 #iframe2{
