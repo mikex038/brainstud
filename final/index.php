@@ -64,6 +64,8 @@ $header->getStart();?>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 	<script src="js/main.js" type="text/javascript"></script>
 
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 	<script src="js/photosphere/three.js/three.min.js"></script>
 	<script src="js/photosphere/D.js/lib/D.min.js"></script>
 	<script src="js/photosphere/uevent/uevent.min.js"></script>
