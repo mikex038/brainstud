@@ -49,11 +49,11 @@ p{
 }
 
 #textinfo5{
-top: 6100px;
+	top: 6100px;
 }
 
 #textinfo7{
-top:9800px;
+	top:9800px;
 }
 
 #iframe1{
@@ -154,9 +154,3 @@ section.subsection-intro7{
 	width:100%;
 	height:2646px;
 }
-
-::-webkit-scrollbar {
-display: none;
-}
-
--moz-scrollbars-none

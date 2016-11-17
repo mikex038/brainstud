@@ -29,12 +29,11 @@ $header->getStart();?>
 	<img id="star" src="images/star.png">
 	<div class="text" id="textinfo2">
 		<h1>Een uitleg over 360º</h1>
-<p>Je hebt minimaal 6 GoPro’s nodig om een 360º
-video te maken. Het verschil tussen het gebruiken van minder en meer GoPro’s is dat je een ‘smoother’ beeld krijgt bij het gebruik van meer GoPro’s.
+		<p>Je hebt minimaal 6 GoPro’s nodig om een 360º
+		video te maken. Het verschil tussen het gebruiken van minder en meer GoPro’s is dat je een ‘smoother’ beeld krijgt bij het gebruik van meer GoPro’s.
 
-Het is heel belangrijk dat je georganiseerd te werk gaat. Plak op elke GoPro een eigen zodat je weet welk beeld bij welke GoPro hoort. Houd er ook rekening mee dat de mount recht staat. Dus evenwijdig aan de horizon.
-</p>
-</div>
+		Het is heel belangrijk dat je georganiseerd te werk gaat. Plak op elke GoPro een eigen zodat je weet welk beeld bij welke GoPro hoort. Houd er ook rekening mee dat de mount recht staat. Dus evenwijdig aan de horizon.</p>
+	</div>
 
 	</section>
 
@@ -53,7 +52,8 @@ Het is heel belangrijk dat je georganiseerd te werk gaat. Plak op elke GoPro een
 	<section class="subsection-intro5">
 		<div class="text" id="textinfo5">
 			<h1>Stitchen</h1>
-			<p>Een probleem waar veel mensen tegen aan lopen is het stitchen, het aan elkaar plakken van de verschillende beelden. Om dit goed uit te kunnen voeren word er gewerkt met het programma Autopano. Waar je wel rekening mee moet houden is dat er kosten aan het programma zijn verbonden. In de volgende video word exact uitgelegd hoe je dit aanpakt.</p>		</div>
+			<p>Een probleem waar veel mensen tegen aan lopen is het stitchen, het aan elkaar plakken van de verschillende beelden. Om dit goed uit te kunnen voeren word er gewerkt met het programma Autopano. Waar je wel rekening mee moet houden is dat er kosten aan het programma zijn verbonden. In de volgende video word exact uitgelegd hoe je dit aanpakt.</p>		
+		</div>
 	</section>
 
 	<section class="subsection-intro6">
