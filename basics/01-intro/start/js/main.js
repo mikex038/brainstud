@@ -15,7 +15,8 @@ $(document).ready(function(){
 	//Pin again
 	var pinIntroScene2 = new ScrollMagic.Scene({
 		triggerElement: '#project01',
-		triggerhook: 0.4
+		triggerhook: 0.4,
+		reverse: false
 	})
 	.setPin('#intro', {pushFollowers: false})
 	.addTo(controller);

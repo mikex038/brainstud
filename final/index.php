@@ -28,7 +28,7 @@ $header->getStart();?>
 	<section class="subsection-intro2">
 	<img id="star" src="images/star.png">
 		<div class="text" id="textinfo2">
-			<h1 class="h1">Een uitleg over 360º</h1>
+			<h1>Een uitleg over 360º</h1>
 			<p>Je hebt minimaal 6 GoPro’s nodig om een 360º
 			video te maken. Het verschil tussen het gebruiken van minder en meer GoPro’s is dat je een ‘smoother’ beeld krijgt bij het gebruik van meer GoPro’s.
 
@@ -40,7 +40,7 @@ $header->getStart();?>
 
 	<section class="subsection-intro3">
 		<div id="iframe1">
-			<iframe src="https://player.vimeo.com/video/189934062" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="https://player.vimeo.com/video/189934062?title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
 	</section>
@@ -51,7 +51,7 @@ $header->getStart();?>
 
 	<section class="subsection-intro5">
 		<div class="text" id="textinfo5">
-			<h1 class="h1">Stitchen</h1>
+			<h1>Stitchen</h1>
 			<p>Een probleem waar veel mensen tegen aan lopen is het stitchen, het aan elkaar plakken van de verschillende beelden. Om dit goed uit te kunnen voeren word er gewerkt met het programma Autopano. Waar je wel rekening mee moet houden is dat er kosten aan het programma zijn verbonden. In de volgende video word exact uitgelegd hoe je dit aanpakt.</p>		
 		</div>
 	</section>
@@ -59,13 +59,13 @@ $header->getStart();?>
 	<section class="subsection-intro6">
 
 		<div id="iframe2">
-		<iframe src="https://player.vimeo.com/video/190059555" width="900" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<iframe src="https://player.vimeo.com/video/190059555?title=0&byline=0&portrait=0" width="900" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 	</section>
 
 	<section class="subsection-intro7">
 		<div class="text" id="textinfo7">
-			<h1 class="h1">De video online zetten</h1>
+			<h1>De video online zetten</h1>
 			<p>Om de video online te kunnen zetten moet je eerst de benodigde metadata toevoegen. Dat kan met de app’360 Video MetaData’. Pak het zipbestand uit en open de app. Selecteer het videobestand. Vind daarna het selectievakje Spherical aan en klik op Save as. Let op dat je het selectievakje ‘3D Top-bottom’ niet aanvinkt. Sla het bestand vervolgens op. Nu kan het bestand naar YouTube geupload worden. Het kan een uur duren voordat de 360ª-weergave beschikbaar is.</p>
 		</div>
 	</section>
