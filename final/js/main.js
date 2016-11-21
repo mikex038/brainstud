@@ -1,11 +1,14 @@
 $(document).ready(function() {
 
+	//First bit of text fades in
 	$("#textinfo1").delay(500).fadeIn();
 
-if ($(window).width() > 1024){
-	$("#goPro").delay(1500).fadeIn().animate({'top': '280px'}, 1500);
-} else { }
+	//If watching on smaller devices GoPro won't show
+	if ($(window).width() > 1024){
+		$("#goPro").delay(1500).fadeIn().animate({'top': '280px'}, 1500);
+	} else { }
 
+	//Photosphere properties
     var PSV = new PhotoSphereViewer({
 	    panorama: 'images/photosphere.JPG',
 	    container: 'photosphere',
@@ -60,7 +63,7 @@ if ($(window).width() > 1024){
 		.addTo(controller);	
 
 
-
+	//Falling star tween
 	var tweenTipB = new TimelineMax({
 		delay: 0, 
 		ease:Linear.easeNone, 
@@ -68,7 +71,6 @@ if ($(window).width() > 1024){
 		reverse: false
 	})
         .to("#star", 1, {bezier: {curviness:1.5, values: [{x:2810, y:700}]}, ease:Linear.easeNone}, 5)
-        //.to("#star", 0 {left: 0, top: 0}, ease:Linear.easeNone}, 10)
         .addTo(controller);
 
 });
