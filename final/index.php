@@ -87,7 +87,12 @@
 		<div class="text" id="textinfo7">
 			<!-- Information on how one puts a video online  -->
 			<h1>De video online zetten</h1>
-			<p>Om de video online te kunnen zetten moet je eerst de benodigde metadata toevoegen. Dat kan met de app’360 Video MetaData’. Pak het zipbestand uit en open de app. Selecteer het videobestand. Vind daarna het selectievakje Spherical aan en klik op Save as. Let op dat je het selectievakje ‘3D Top-bottom’ niet aanvinkt. Sla het bestand vervolgens op. Nu kan het bestand naar YouTube geupload worden. Het kan een uur duren voordat de 360°-weergave beschikbaar is.</p>
+			<p>Om de video online te kunnen zetten moet je eerst de benodigde metadata toevoegen. Dat kan met de app’360 Video MetaData’.<br>
+			1. Pak het zipbestand uit en open de app.<br>
+			2. Selecteer het videobestand.<br>
+			3. Vind daarna het selectievakje Spherical aan en klik op Save as (Let op dat je het selectievakje ‘3D Top-bottom’ niet aanvinkt!).<br>
+			4. Sla het bestand vervolgens op. <br>
+			5. Nu kan het bestand naar YouTube geupload worden.<br>Het kan een uur duren voordat de 360&deg;-weergave beschikbaar is.</p>
 		</div>
 	</section>
 
