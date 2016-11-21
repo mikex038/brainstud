@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 	<title>VR Web Brainstud</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -11,8 +13,10 @@
 	<link rel="stylesheet" href="js/photosphere/photo-sphere-viewer.css">
 
 </head>
+
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<!-- Header include -->
 	<?php include('header.inc.php');
@@ -28,30 +32,29 @@
 		<p>Zie jij door de GoPro’s het bos niet meer? Dan is deze 360º tutorial perfect voor jou. 360 video’s is een nieuwe functie waar al meerdere bedrijven gebruik van maken. Deze video’s kunnen bekeken worden met een virtual reality bril of door het fysiek bewegen van bijvoorbeeld je smartphone of tablet. In deze tutorial word stap voor stap uitgelegd hoe jij een perfect gelukte 360 video in elkaar zet.</p>
 	</div>
 	</section>
+
 	<!-- The GoPro -->
 	<img id="goPro" src="images/gopro.png">
 	<section class="subsection-intro11">
+
 	</section>
 
-	<!-- More in-depth information on 360  -->
 	<section class="subsection-intro2">
-		<!-- Falling star -->
+	<!-- Shooting star -->
 	<img id="star" src="images/star.png">
 		<!-- Second bit of text with information -->
 		<div class="text" id="textinfo2">
 			<h1>Een uitleg over 360º</h1>
 			<p>Je hebt minimaal 6 GoPro’s nodig om een 360º
-			video te maken. Het verschil tussen het gebruiken van minder en meer GoPro’s is dat je een ‘smoother’ beeld krijgt bij het gebruik van meer GoPro’s.
-
+			video te maken. Het verschil tussen het gebruiken van minder en meer GoPro’s is dat je een ‘smoother’ beeld krijgt bij het gebruik van meer GoPro’s.<br><br>
 			Het is heel belangrijk dat je georganiseerd te werk gaat. Plak op elke GoPro een eigen zodat je weet welk beeld bij welke GoPro hoort. Houd er ook rekening mee dat de mount recht staat. Dus evenwijdig aan de horizon.</p>
 		</div>
-
 	</section>
 
 	<!-- Black background with Mac -->
 	<section class="subsection-intro3">
+		<!-- Animation video on 360 degrees  -->
 		<div id="iframe1">
-			<!-- Animatie Video on 360 degrees  -->
 			<iframe src="https://player.vimeo.com/video/189934062?title=0&byline=0&portrait=0" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
@@ -76,7 +79,7 @@
 	<section class="subsection-intro6">
 		<!-- Video on how to create 360 videos -->
 		<div id="iframe2">
-		<iframe src="https://player.vimeo.com/video/190059555?title=0&byline=0&portrait=0" width="900" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="https://player.vimeo.com/video/190059555?title=0&byline=0&portrait=0" width="900" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 	</section>
 
@@ -122,4 +125,5 @@
 	<!-- Own script -->
 	<script src="js/main.js" type="text/javascript"></script>
 </body>
+
 </html>
